@@ -83,7 +83,7 @@ public class YoutubeSearch {
             // Define the API request for retrieving search results.
             YouTube.Search.List search = youtube.search().list("id,snippet");
 
-            search.setKey("AIzaSyCfADIc_qGi9KlPnYNQhssJdXRscS2ux7M");
+            search.setKey(""); //Put key here
             search.setQ(queryTerm);
 
             search.setType("video");
